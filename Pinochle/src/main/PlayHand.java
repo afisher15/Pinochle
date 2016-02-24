@@ -17,7 +17,7 @@ public class PlayHand {
 		}
 	}
 	
-	public static int[][] DealHand() {
+	public static int[][] dealHand() {
 		int[] threshold = new int[NUM_HANDS];
 		for(int i = 0; i < NUM_HANDS; i++){
 			threshold[i] = CARDS_PER_HAND * (i + 1);
